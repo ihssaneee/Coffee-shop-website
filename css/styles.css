@@ -12,10 +12,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: #6f4e37; /* Consistent dark brown for headings */
+  color: #6f4e37;
 }
-
-/* header styles */
 nav a {
   text-decoration: none;
   display: inline;
@@ -29,26 +27,23 @@ nav a:hover {
   text-decoration: underline;
   color: #fabc3f;
 }
-.about-us{
-
-}
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #3e2828;
-  color: #f5f5dc; /* Light beige text */
+  color: #f5f5dc;
   height: 3.9rem;
-  padding-bottom: 3rem; /* Add padding */
-  padding-top: 3rem; /* Add padding */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
-  overflow: hidden; /* Prevent overflow */
-  width: 100%; /* Ensure the header takes up the full width of the viewport */
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
 }
 #logo {
-  height: auto; /* Adjust this value as needed */
-  width: 12rem; /* Existing value, adjust if needed */
+  height: auto;
+  width: 12rem;
   margin: 4.25rem;
 }
 .mobile-toggle {
@@ -63,9 +58,7 @@ nav a:hover,
 nav a:focus,
 nav a:active {
   text-decoration: underline;
-  /* color: #6B240C; A lighter brown for better visibility on hover/focus/active */
 }
-
 @media (max-width: 48rem) {
   .mobile-toggle {
     display: block;
@@ -80,10 +73,9 @@ nav a:active {
     background-color: #fed8b1;
     z-index: 1;
   }
-
   nav a {
-    display: block; /* Stack the links vertically when shown */
-    padding: 0.625rem 1.25rem; /* Adjust spacing */
+    display: block;
+    padding: 0.625rem 1.25rem;
     margin: 0;
     box-sizing: border-box;
     color: black;
@@ -99,7 +91,6 @@ nav a:active {
     width: 10.5rem;
   }
 }
-/*hero section styles */
 .slideshow-container {
   position: relative;
   margin: 0 auto;
@@ -107,9 +98,8 @@ nav a:active {
   height: auto;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden; /* Prevent horizontal scroll */
+  overflow: hidden;
 }
-
 .mySlides {
   display: none;
   height: 34.375rem;
@@ -135,17 +125,15 @@ nav a:active {
   box-sizing: border-box;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
-
 .featured-products {
   display: grid;
   background-color: #faf0dc;
-  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr)); /* Ensure equal width columns */
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
   gap: 1.125rem;
   padding: 1.25rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
-
 .card-price {
   font-family: "Roboto", sans-serif;
   color: #d47a20;
@@ -157,17 +145,15 @@ nav a:active {
   text-shadow: 0.0625rem 0.125rem 0.125rem rgb(0, 0, 0, 0.1);
 }
 .title-container {
-  text-align: center; /* Center the content */
-  /* Add margin to separate from other elements */
+  text-align: center;
   width: 100%;
 }
-
 .big-titles {
   border-radius: 0.5rem;
   margin: 0;
   font-size: 3rem;
   padding: 2.5rem;
-  color: #f5deb3; /* Updated color */
+  color: #f5deb3;
   background-color: #4b2e2e;
   display: block;
 }
@@ -178,7 +164,6 @@ nav a:active {
   border: 0.0625rem solid transparent;
   border-radius: 1.0625rem;
 }
-
 .card-text {
   font-size: 1rem;
   margin-bottom: 0.9375rem;
@@ -190,7 +175,7 @@ nav a:active {
 .card-title {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
-  color: #333; /* Darker color for better readability */
+  color: #333;
   padding-left: 1.5rem;
   margin-bottom: 0.25rem;
   line-height: 1.2;
@@ -207,12 +192,12 @@ nav a:active {
 }
 .testimonials {
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping for better responsiveness */
-  gap: 2.5rem; /* Reduced gap for better alignment */
+  flex-wrap: wrap;
+  gap: 2.5rem;
   align-items: center;
   justify-content: center;
   padding: 3rem;
-  background-color: #f5f5dc; /* Slightly warmer background color */
+  background-color: #f5f5dc;
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
@@ -276,7 +261,6 @@ nav a:active {
     margin-right: auto;
   }
 }
-/* location and hours */
 .location-hours {
   display: flex;
   flex-wrap: wrap;
@@ -287,7 +271,6 @@ nav a:active {
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
   margin: 2rem 0;
 }
-
 .location-card,
 .hours-card {
   flex: 1 1 18.75rem;
@@ -299,30 +282,25 @@ nav a:active {
   align-items: center;
   gap: 1.25rem;
 }
-
 .location-content,
 .hours-content {
   flex: 1;
 }
-
 .location-content h3,
 .hours-content h3 {
   font-size: 1.8rem;
   color: #6f4e37;
   margin-bottom: 1rem;
 }
-
 .location-content p,
 .hours-content ul {
   font-size: 1.1rem;
   color: #555;
 }
-
 .hours-content ul {
   list-style: none;
   padding: 0;
 }
-
 .hours-content li {
   margin-bottom: 0.5rem;
   padding: 0.625rem;
@@ -332,35 +310,29 @@ nav a:active {
   align-items: center;
   transition: background-color 0.3s ease;
 }
-
 .hours-content li:hover {
   background-color: #e0e0e0;
 }
-
 .hours-content li::before {
   content: "\1F4C5";
   margin-right: 0.625rem;
   font-size: 1.2rem;
   color: #6f4e37;
 }
-
 .hours-content li span {
   font-weight: bold;
   color: #333;
 }
-
 .hours-content li time {
   margin-left: auto;
   font-style: italic;
   color: #777;
 }
-
 @media (max-width: 48rem) {
   .location-hours {
     flex-direction: column;
   }
 }
-
 .about-us {
   display: flex;
   flex-wrap: wrap;
@@ -372,25 +344,22 @@ nav a:active {
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
   margin: 0;
-  
-
-
 }
-.animate-on-scroll{
+.animate-on-scroll {
   animation: slideIn 2s ease-out;
 }
 @keyframes slideIn {
-  from{transform: translateX(-100%);}
-  to{
+  from {
+    transform: translateX(-100%);
+  }
+  to {
     transform: translateX(0);
   }
 }
-
 .about-photo {
   flex: 1 1 18.75rem;
   text-align: center;
 }
-
 .about-photo img {
   width: 100%;
   max-width: 25rem;
@@ -398,32 +367,27 @@ nav a:active {
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
-
 .about-text {
   flex: 2 1 31.25rem;
   text-align: left;
 }
-
 .about-text h3 {
   font-size: 2.5rem;
   color: #6f4e37;
   margin-bottom: 1rem;
   text-align: center;
 }
-
 .about-text p {
   font-size: 1.2rem;
   color: #555;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
-/* footer styles */
 footer {
   background-color: #6f4e37;
   color: white;
   font-family: "Open Sans", sans-serif;
 }
-
 .footer-container {
   display: flex;
   justify-content: space-around;
@@ -443,11 +407,10 @@ footer {
 }
 .social-icons {
   display: flex;
-  gap: 0.9375rem; /* Adds space between icons */
+  gap: 0.9375rem;
   justify-content: center;
-  align-items: center; /* Vertically align icons */
+  align-items: center;
 }
-
 .fa-instagram {
   background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
   color: white;
@@ -466,16 +429,14 @@ footer {
   padding: 0.75rem;
   border-radius: 50%;
 }
-
 .social-icons a:hover {
-  transform: scale(1.1); /* Slight zoom on hover */
+  transform: scale(1.1);
   transition: transform 0.2s ease-in-out;
 }
-
 .footer-bottom {
   margin: 0;
   margin-top: 0.625rem;
-  border-top: 0.0625rem solid #f1f1f1; /* Light border for separation */
+  border-top: 0.0625rem solid #f1f1f1;
 }
 .footer-bottom p {
   margin: 0;
@@ -516,25 +477,22 @@ footer {
     margin-bottom: 1.25rem;
   }
 }
-/* gallery section */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  grid-template-rows: repeat(3, 1fr); /* 3 rows */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 1.25rem;
   padding: 1.25rem;
 }
-
 .gallery-item {
-  overflow: hidden; /* Ensure images don't overflow their container */
-  height: 25rem; /* Fixed height for each grid item */
+  overflow: hidden;
+  height: 25rem;
 }
-
 .gallery-item img {
   height: 100%;
   width: 100%;
   display: block;
-  object-fit: cover; /* Ensure the image covers the entire grid item */
+  object-fit: cover;
 }
 @media (max-width: 48rem) {
   .gallery {
